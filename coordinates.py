@@ -130,4 +130,4 @@ while s<e:
 n = len(P)
 table = [['Coordinates', 'closest pair', 'distance'],[C,bruteCoordinates(P,n),closest(P, n)]]
 print(tabulate(table, headers='firstrow', tablefmt='grid'))
-#print("The smallest distance is",closest(P, n)
+#print("The smallest distance is",closest(P, n))
